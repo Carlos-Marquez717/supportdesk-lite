@@ -1,0 +1,13 @@
+package com.portfolio.supportdesklite.common.error;
+
+public enum ErrorCode {
+    VALIDATION_ERROR,
+    TICKET_NOT_FOUND,
+    AGENT_NOT_FOUND,
+    COMMENT_NOT_FOUND,
+    DUPLICATE_AGENT_EMAIL,
+    INVALID_STATUS_TRANSITION,
+    INVALID_TICKET_OPERATION,
+    AGENT_HAS_OPEN_TICKETS,
+    INTERNAL_ERROR
+}

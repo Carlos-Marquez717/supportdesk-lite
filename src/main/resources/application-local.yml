@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    url: ${SQLITE_DB_URL:jdbc:sqlite:supportdesk-lite.db}
+    driver-class-name: org.sqlite.JDBC
+    username:
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.community.dialect.SQLiteDialect
+    properties:
+      hibernate:
+        format_sql: true
+  flyway:
+    enabled: false
+
+supportdesk:
+  automation:
+    sla-check-delay-ms: 300000

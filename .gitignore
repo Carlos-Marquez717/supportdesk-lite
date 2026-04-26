@@ -1,0 +1,9 @@
+target/
+.idea/
+.vscode/
+*.iml
+.env.example
+*.log
+supportdesk-lite.db
+supportdesk-lite.db-*
+.mvn/maven-user-home/

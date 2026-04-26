@@ -1,0 +1,7 @@
+spring:
+  jpa:
+    show-sql: true
+
+supportdesk:
+  automation:
+    sla-check-delay-ms: 300000
