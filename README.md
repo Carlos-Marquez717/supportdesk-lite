@@ -210,13 +210,16 @@ Formato estandar:
 9. Consultar auditoria.
 10. Mostrar dashboard.
 
-## Capturas Recomendadas
+## Capturas
 
-- Swagger UI con endpoints.
-- Creacion de ticket.
-- Error de validacion.
-- Asignacion de agente.
-- Comentarios del ticket.
-- Auditoria.
-- Dashboard summary.
-"# supportdesk-lite" 
+### Swagger UI - Tickets
+
+![Swagger UI tickets](docs/images/swagger-tickets-overview.png)
+
+### Crear Ticket
+
+![Crear ticket en Swagger UI](docs/images/swagger-create-ticket.png)
+
+### Modulos de la API
+
+![Controladores de la API](docs/images/swagger-controllers-overview.png)
