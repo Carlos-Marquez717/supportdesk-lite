@@ -1,5 +1,7 @@
 # SupportDesk Lite
 
+![SupportDesk Lite API cover](docs/images/supportdesk-lite-api-cover.png)
+
 API backend para gestion de tickets de soporte con SLA, asignaciones, comentarios, auditoria y automatizaciones.
 
 Construido como proyecto de portfolio con Spring Boot 3, Java 21, PostgreSQL, Spring Data JPA, Flyway, Jakarta Validation y Swagger/OpenAPI.
